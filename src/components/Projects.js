@@ -8,15 +8,9 @@ const Projects = (props) => {
   return (
 
     <div>
-      <div className="skews">
-        	<section className="section-skew left">
-		</section>
-      	<section className="section-skew">
-		</section>
       	<ScrollableAnchor id={'section1'}>
 		<br></br>
     </ScrollableAnchor>
-    </div>
       <Grid>
         <Row className="show-grid">
           <Col xs={12} md={8} lg={4}>
@@ -53,8 +47,7 @@ const Projects = (props) => {
           </Col>
        </Row>
    </Grid>
-   
- </div>
+  </div>
 
 
   

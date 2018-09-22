@@ -47,15 +47,8 @@ class Intro extends Component {
  		<div id='anchor-point'>
  		<h1><a href="#section1"> EXPLORE PROJECTS </a> </h1>
  		</div>
-
-				
-		  
-				</Row>
-				 			
- 
-				
+			</Row>
 	</Grid>
-	
 </div>
 
 		);
