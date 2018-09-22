@@ -1,0 +1,23 @@
+{
+  "name": "react-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.0",
+    "gh-pages": "^1.2.0",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5",
+    "react-scrollable-anchor": "^0.6.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://lauriehansson.github.io/portfolio"
+}
